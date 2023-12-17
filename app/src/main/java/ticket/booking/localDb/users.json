@@ -1,0 +1,29 @@
+[
+  {
+    "user_id": "abcdef",
+    "name": "Lovepreet Singh",
+    "hashed_password": "12345",
+    "tickets_booked": [
+      {
+        "source": "Bangalore",
+        "destination": "Delhi",
+        "date_of_travel": "2023-12-08T18:30:00Z",
+        "train": {
+          "train_id": "bacs",
+          "train_no": 12345,
+          "seats": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations": {
+            "Bangalore": "13:50:00",
+            "Jaipur": "13:50:00",
+            "Delhi": "13:50:00"
+          }
+        }
+      }
+    ]
+  }
+]
